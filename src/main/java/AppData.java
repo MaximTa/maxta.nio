@@ -16,7 +16,7 @@ public class AppData {
    public void readCsvFile (String name){
       List<String[]> dataList = new ArrayList<String[]>();
       try (BufferedReader reader = new BufferedReader(new FileReader(name))) {
-        
+        //String str
 
 
       }catch (IOException e) {
